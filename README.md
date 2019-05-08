@@ -1,15 +1,18 @@
 # cartWishList-using-Redis
 Redis is an open source (BSD licensed), in-memory data structure store, used as a database, cache and message broker
 
-#REDIS
+# REDIS
 
 ![Redis server](https://github.com/Arihantjain1/cartWishList-using-Redis/blob/master/test/redis.png)
 
-##NPM INSTALL
+**Download redis server from official site of redis**
+[Redis official site](https://redis.io/download)
+
+## NPM INSTALL
 ```
 npm install redis
 ```
-###Redis Configuration
+### Redis Configuration
 ```
 var redis = require('redis');
 var redisConfig = {
@@ -18,3 +21,8 @@ var redisConfig = {
 };
 redis.createClient(redisConfig.port, redisConfig.host);
 ```
+
+# REDIS GUI
+![Redis gui](https://github.com/Arihantjain1/cartWishList-using-Redis/blob/master/test/redisgui.png)
+
+**@Arihantjain1**  :sunglasses: This instruction is complete! go-ahead
